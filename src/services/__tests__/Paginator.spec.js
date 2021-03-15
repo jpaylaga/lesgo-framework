@@ -46,13 +46,13 @@ describe('test Paginator instantiate', () => {
   `(
     'should throw $errorMessage when page is $page and perPage is $perPage',
     ({
-       page,
-       perPage,
-       errorName,
-       errorMessage,
-       errorCode,
-       errorStatusCode,
-     }) => {
+      page,
+      perPage,
+      errorName,
+      errorMessage,
+      errorCode,
+      errorStatusCode,
+    }) => {
       try {
         const values = new Paginator(
           db,

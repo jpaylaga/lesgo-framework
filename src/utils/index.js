@@ -9,7 +9,6 @@ import crypto from './crypto';
 import generateUid from './generateUid';
 import db from './db';
 import dynamodb from './dynamodb';
-import paginate from './paginate';
 
 // eslint-disable-next-line import/prefer-default-export
 export {
@@ -24,5 +23,4 @@ export {
   generateUid,
   db,
   dynamodb,
-  paginate,
 };
